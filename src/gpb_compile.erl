@@ -2543,6 +2543,8 @@ opt_specs() ->
       "       useful with the option -nif.\n"},
      {"no-gen-introspect", {'opt_value()', false}, gen_introspect, "\n"
       "       Do not generate code for introspection.\n"},
+     {"preserve-unknown-fields", undefined, preserve_unknown_fields, "\n"
+      "       Preserve unknown fields.\n"},
      {"Werror",undefined, warnings_as_errors, "\n"
       "       Treat warnings as errors\n"},
      {"W1", undefined, report_warnings, "\n"
